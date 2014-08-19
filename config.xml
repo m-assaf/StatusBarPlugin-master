@@ -13,9 +13,9 @@
     <!-- section on this page http://developer.android.com/tools/publishing/versioning.html -->
     <!-- for more information regarding the use and purpose of the versionCode attribute -->
 	
-    <name>Fluance hprf</name>
+    <name>StatusBar Testing</name>
     <description>
-		GSMN Fluance IT project development
+		Testing iOS Status Bar
     </description>
     <author email="mahmoud.assaf@fluance.ch" href="http://cordova.io">
         Mahmoud Assaf
