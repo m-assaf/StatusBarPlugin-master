@@ -20,7 +20,7 @@
             <clobbers target="window.StatusBar" />
         </js-module>
 
-        <config-file target="config.xml" parent="/*">
+        <config-file target="config_OLD.xml" parent="/*">
             <feature name="StatusBar">
                 <param name="ios-package" value="CDVStatusBar" onload="true" />
             </feature>
