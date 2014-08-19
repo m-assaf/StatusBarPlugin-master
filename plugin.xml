@@ -15,6 +15,7 @@
     </engines>
 
     <!-- ios -->
+	<!--
     <platform name="ios">
         <js-module src="www/statusbar.js" name="statusbar">
             <clobbers target="window.StatusBar" />
@@ -32,5 +33,6 @@
         <source-file src="src/ios/CDVStatusBar.m" />
         
     </platform>
+	-->
 
 </plugin>
