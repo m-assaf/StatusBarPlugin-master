@@ -72,26 +72,38 @@
 	
 	<!-- <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0"  /> -->
 	
+	<!-- hidding iOS Status Bar -->
+	<feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" onload="true" />
+    </feature>
 	<gap:plugin name="com.phonegap.plugin.statusbar" />
+	 <gap:config-file platform="ios" parent="UIStatusBarHidden">
+        <true/>
+    </gap:config-file>
+
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+        <false/>
+    </gap:config-file>
 	<!-- ios -->
+	<!--
     <platform name="ios">
         <js-module src="www/statusbar.js" name="statusbar">
             <clobbers target="window.StatusBar" />
         </js-module>
 
-        <!--<config-file target="config_OLD.xml" parent="/*">-->
+        <config-file target="config_OLD.xml" parent="/*">
             <feature name="StatusBar">
                 <param name="ios-package" value="CDVStatusBar" onload="true" />
             </feature>
             <preference name="StatusBarOverlaysWebView" value="false" />
             <preference name="StatusBarBackgroundColor" value="red" />
-        <!--</config-file>-->
+        </config-file>
         
         <header-file src="src/ios/CDVStatusBar.h" />
         <source-file src="src/ios/CDVStatusBar.m" />
         
     </platform>
-	
+	-->
 	
 	<!--
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
