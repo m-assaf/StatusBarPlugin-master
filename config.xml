@@ -27,9 +27,8 @@
         permission on your app, which PhoneGap requires.
     -->
     <!--<preference name="permissions" value="none"/> -->
-	<gap:plugin name="com.phonegap.plugin.statusbar" />
 	
-	<!--
+	<!-- hidding iOS Status Bar (working) -->
 	<gap:plugin name="com.phonegap.plugin.statusbar" />
 	
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
@@ -40,7 +39,7 @@
 	<false/>
 	</gap:config-file>
 	
-	-->
+	
 	
 	
 	  <!-- Customize your app and platform with the preference element. -->
