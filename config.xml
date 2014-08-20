@@ -74,7 +74,7 @@
 	
 	<!-- hidding iOS Status Bar -->
 	<gap:plugin name="com.phonegap.plugin.statusbar"  />
-	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="false">
     <false/>
 	</gap:config-file>
 	<!--
