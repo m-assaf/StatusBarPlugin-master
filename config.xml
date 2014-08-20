@@ -80,6 +80,7 @@
         <true/>
     </gap:config-file>
 	-->
+	<!--
 	<platform name="ios">
 		<js-module src="www/statusbar.js" name="statusbar">
 			<clobbers target="window.StatusBar" />
@@ -93,8 +94,9 @@
 			<preference name="StatusBarBackgroundColor" value="red" />	
 		</gap:config-file>
 	</platform>
+	-->
 	<!-- ios -->
-	<!--
+	
     <platform name="ios">
         <js-module src="www/statusbar.js" name="statusbar">
             <clobbers target="window.StatusBar" />
@@ -112,7 +114,7 @@
         <source-file src="src/ios/CDVStatusBar.m" />
         
     </platform>
-	-->
+	
 	
 	<!--
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
