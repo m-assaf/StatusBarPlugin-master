@@ -23,9 +23,9 @@
 
         <config-file target="config.xml" parent="/*">
             <feature name="StatusBar">
-                <param name="ios-package" value="CDVStatusBar" onload="true" />
+                <param name="ios-package" value="CDVStatusBar" onload="false" />
             </feature>
-            <preference name="StatusBarOverlaysWebView" value="true" />
+            <preference name="StatusBarOverlaysWebView" value="false" />
             <preference name="StatusBarBackgroundColor" value="#04FB15" />
         </config-file>
         
