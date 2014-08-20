@@ -37,6 +37,9 @@ var app = {
         app.receivedEvent('deviceready');
 		alert('function onDeviceReady');
 		StatusBar.overlaysWebView(false);
+		if (parseFloat(window.device.version) === 7.0) {
+          document.body.style.marginTop = "20px";
+		}
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
