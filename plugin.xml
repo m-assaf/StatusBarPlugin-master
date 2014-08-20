@@ -15,13 +15,13 @@
     </engines>
 
     <!-- ios -->
-	<!--
+	
     <platform name="ios">
         <js-module src="www/statusbar.js" name="statusbar">
             <clobbers target="window.StatusBar" />
         </js-module>
 
-        <config-file target="config_OLD.xml" parent="/*">
+        <config-file target="config.xml" parent="/*">
             <feature name="StatusBar">
                 <param name="ios-package" value="CDVStatusBar" onload="true" />
             </feature>
@@ -33,6 +33,6 @@
         <source-file src="src/ios/CDVStatusBar.m" />
         
     </platform>
-	-->
+	
 
 </plugin>

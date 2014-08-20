@@ -75,6 +75,7 @@
 	<!-- hidding iOS Status Bar -->
 	
 	<gap:plugin name="com.phonegap.plugin.statusbar" />
+	<preference name="Fullscreen" value="true" />
 	<!--
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
         <true/>
@@ -96,7 +97,7 @@
 	</platform>
 	-->
 	<!-- ios -->
-	
+	<!--
     <platform name="ios">
         <js-module src="www/statusbar.js" name="statusbar">
             <clobbers target="window.StatusBar" />
@@ -114,7 +115,7 @@
         <source-file src="src/ios/CDVStatusBar.m" />
         
     </platform>
-	
+	-->
 	
 	<!--
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
@@ -182,6 +183,7 @@
 
         Otherwise, you can specify specific domains:
     -->
+	<content src="index.html" />
     <access origin="*"/>
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
