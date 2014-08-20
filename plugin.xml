@@ -21,12 +21,12 @@
             <clobbers target="window.StatusBar" />
         </js-module>
 
-        <config-file target="config_old_old.xml" parent="/*">
+        <config-file target="config.xml" parent="/*">
             <feature name="StatusBar">
                 <param name="ios-package" value="CDVStatusBar" onload="true" />
             </feature>
             <preference name="StatusBarOverlaysWebView" value="true" />
-            <preference name="StatusBarBackgroundColor" value="#000000" />
+            <preference name="StatusBarBackgroundColor" value="#04FB15" />
         </config-file>
         
         <header-file src="src/ios/CDVStatusBar.h" />
