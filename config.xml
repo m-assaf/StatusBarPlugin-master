@@ -28,6 +28,8 @@
     -->
     <!--<preference name="permissions" value="none"/> -->
 	
+	
+	<!--
 	<gap:plugin name="com.phonegap.plugin.statusbar" />
 	
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
@@ -37,6 +39,9 @@
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
 	<false/>
 	</gap:config-file>
+	-->
+	
+	
 	
 	  <!-- Customize your app and platform with the preference element. -->
     <!-- <preference name="phonegap-version"           value="3.5.0" /> -->        <!-- all: current version of PhoneGap -->
