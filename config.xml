@@ -22,6 +22,7 @@
     </author>
 	
 	<!-- hidding iOS Status Bar (working) -->
+	<!--
 	<gap:plugin name="com.phonegap.plugin.statusbar" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
 	<true/>
@@ -29,13 +30,15 @@
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
 	<false/>
 	</gap:config-file>
+	-->
+
 	
+	<!-- ************** Adding Icons and Splash Screens **************  -->
 	<preference name="splashscreen" value="splash" />
 	<preference name="splashScreenDelay" value="10000" />
 	<preference name="show-splash-screen-spinner" value="false" />
-	
-	<!-- ************** Adding Icons and Splash Screens **************  -->
 	<gap:plugin name="org.apache.cordova.splashscreen" />
+	
 	<!-- NOTE: <.....  gap:density="ldpi" />  ===>>> WORK BUT IS DEPRECATED -->
 	<icon src="icon.png" />
 	<icon gap:qualifier="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" />

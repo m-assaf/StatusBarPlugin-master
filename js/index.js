@@ -35,6 +35,12 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+		if (parseFloat(window.device.version) >= 7.0) {
+			document.body.style.marginTop = "20px";
+		}
+		document.addEventListener('deviceready', onDeviceReady, false);
+		
+		
 		//alert('function onDeviceReady');
 		//StatusBar.overlaysWebView(false);
 		//if (parseFloat(window.device.version) === 7.0) {
