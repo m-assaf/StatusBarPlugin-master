@@ -34,10 +34,14 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-		if (parseFloat(window.device.version) >= 7.0) {
+	
+	if (parseFloat(window.device.version) >= 7.0) {
 			document.body.style.marginTop = "150px";
 		}
+	
+	
+        app.receivedEvent('deviceready');
+		
 		//document.addEventListener('deviceready', onDeviceReady, false);
 		
 		//var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) && parseInt(navigator.appVersion.match(/OS (\d)/)[1], 10) >= 7;
