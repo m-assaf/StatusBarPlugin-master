@@ -22,15 +22,15 @@
     </author>
 	
 	<!-- hidding iOS Status Bar (working) -->
-	<!--
+	
 	<gap:plugin name="com.phonegap.plugin.statusbar" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
-	<true/>
+	<false/>
 	</gap:config-file>
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
 	<false/>
 	</gap:config-file>
-	-->
+	
 
 	
 	<!-- ************** Adding Icons and Splash Screens **************  -->
