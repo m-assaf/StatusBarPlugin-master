@@ -27,7 +27,7 @@ var app = {
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
+        //document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     // deviceready Event Handler
     //
@@ -39,6 +39,11 @@ var app = {
 			document.body.style.marginTop = "20px";
 		}
 		document.addEventListener('deviceready', onDeviceReady, false);
+		
+		//var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) && parseInt(navigator.appVersion.match(/OS (\d)/)[1], 10) >= 7;
+		//if (updateStatusBar) {
+			//document.body.style.webkitTransform = 'translate3d(0, 20px, 0)';
+		//}
 		
 		
 		//alert('function onDeviceReady');
