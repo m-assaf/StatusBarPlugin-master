@@ -38,7 +38,7 @@ var app = {
 		if (parseFloat(window.device.version) >= 7.0) {
 			document.body.style.marginTop = "150px";
 		}
-		document.addEventListener('deviceready', onDeviceReady, false);
+		//document.addEventListener('deviceready', onDeviceReady, false);
 		
 		//var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) && parseInt(navigator.appVersion.match(/OS (\d)/)[1], 10) >= 7;
 		//if (updateStatusBar) {
