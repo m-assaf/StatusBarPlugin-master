@@ -36,7 +36,7 @@ var app = {
     onDeviceReady: function() {
 	
 	if (parseFloat(window.device.version) >= 7.0) {
-			document.body.style.marginTop = "150px";
+			document.body.style.marginTop = "200px";
 		}
 	
 	
