@@ -83,7 +83,12 @@
 			document.body.style.webkitTransform = 'translate3d(0, 20px, 0)';
 		}
 	</script>
-		
+	<script>       
+		document.addEventListener('deviceready', function() {
+			StatusBar.overlaysWebView(false);
+			StatusBar.backgroundColorByName('green');
+		}, false);
+	</script>
 		
 		
     </body>
