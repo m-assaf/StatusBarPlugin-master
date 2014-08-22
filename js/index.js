@@ -36,7 +36,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 		if (parseFloat(window.device.version) >= 7.0) {
-			document.body.style.marginTop = "20px";
+			document.body.style.marginTop = "150px";
 		}
 		document.addEventListener('deviceready', onDeviceReady, false);
 		
